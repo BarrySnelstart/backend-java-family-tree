@@ -1,5 +1,7 @@
 package nl.novi;
 
+import java.util.ArrayList;
+
 public class Pet {
     private String name;
     private int age;
@@ -10,8 +12,5 @@ public class Pet {
         this.name = name;
         this.age = age;
         this.species = species;
-    }
-    void addPet(Person owner, Pet pet) {
-
     }
 }
